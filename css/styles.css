@@ -75,7 +75,7 @@ main .actions {
     flex-direction: column;
 }
 
-main .actions a {
+main .actions a, .actions-login a {
     display: flex;
     font-size: 2.4rem;
     height: 5.5rem;
@@ -89,7 +89,7 @@ main .actions a {
     transition: ease .5s;
 }
 
-main .actions a:hover {
+main .actions a:hover, .actions-login a:hover {
     transform: scale(1.1);
     animation-direction: alternate;
 }
@@ -97,6 +97,10 @@ main .actions a:hover {
 main .actions a+a {
     background-color: #2e2e2e;
     margin-top: 4.8rem;
+}
+
+main .actions-login a {
+    margin-top: 3rem;
 }
 
 main header {
